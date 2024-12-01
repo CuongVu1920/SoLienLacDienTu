@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StudentManagementModelStoreContainer" CdmEntityContainer="StudentManagementEntities">
+    <EntitySetMapping Name="AbsentCalendars">
+      <EntityTypeMapping TypeName="StudentManagementModel.AbsentCalendar">
+        <MappingFragment StoreEntitySet="AbsentCalendar">
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="IdSubjectClass" ColumnName="IdSubjectClass" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="StudentManagementModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="IdUsers" ColumnName="IdUsers" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Classes">
+      <EntityTypeMapping TypeName="StudentManagementModel.Class">
+        <MappingFragment StoreEntitySet="Class">
+          <ScalarProperty Name="IdThumbnail" ColumnName="IdThumbnail" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IdTeacher" ColumnName="IdTeacher" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="IdFaculty" ColumnName="IdFaculty" />
+          <ScalarProperty Name="IdTrainingForm" ColumnName="IdTrainingForm" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ComponentScores">
+      <EntityTypeMapping TypeName="StudentManagementModel.ComponentScore">
+        <MappingFragment StoreEntitySet="ComponentScore">
+          <ScalarProperty Name="ContributePercent" ColumnName="ContributePercent" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="IdSubjectClass" ColumnName="IdSubjectClass" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CourseRegisters">
+      <EntityTypeMapping TypeName="StudentManagementModel.CourseRegister">
+        <MappingFragment StoreEntitySet="CourseRegister">
+          <ScalarProperty Name="IdSubjectClass" ColumnName="IdSubjectClass" />
+          <ScalarProperty Name="IdStudent" ColumnName="IdStudent" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DatabaseImageTables">
+      <EntityTypeMapping TypeName="StudentManagementModel.DatabaseImageTable">
+        <MappingFragment StoreEntitySet="DatabaseImageTable">
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetailScores">
+      <EntityTypeMapping TypeName="StudentManagementModel.DetailScore">
+        <MappingFragment StoreEntitySet="DetailScore">
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="IdComponentScore" ColumnName="IdComponentScore" />
+          <ScalarProperty Name="IdStudent" ColumnName="IdStudent" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Documents">
+      <EntityTypeMapping TypeName="StudentManagementModel.Document">
+        <MappingFragment StoreEntitySet="Document">
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="IdSubjectClass" ColumnName="IdSubjectClass" />
+          <ScalarProperty Name="IdFolder" ColumnName="IdFolder" />
+          <ScalarProperty Name="IdPoster" ColumnName="IdPoster" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Examinations">
+      <EntityTypeMapping TypeName="StudentManagementModel.Examination">
+        <MappingFragment StoreEntitySet="Examination">
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="WeekDay" ColumnName="WeekDay" />
+          <ScalarProperty Name="ExamName" ColumnName="ExamName" />
+          <ScalarProperty Name="IdSubjectClass" ColumnName="IdSubjectClass" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Faculties">
+      <EntityTypeMapping TypeName="StudentManagementModel.Faculty">
+        <MappingFragment StoreEntitySet="Faculty">
+          <ScalarProperty Name="FoundationDay" ColumnName="FoundationDay" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Faculty_TrainingForm">
+      <EntityTypeMapping TypeName="StudentManagementModel.Faculty_TrainingForm">
+        <MappingFragment StoreEntitySet="Faculty_TrainingForm">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IdFaculty" ColumnName="IdFaculty" />
+          <ScalarProperty Name="IdTrainingForm" ColumnName="IdTrainingForm" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Folders">
+      <EntityTypeMapping TypeName="StudentManagementModel.Folder">
+        <MappingFragment StoreEntitySet="Folder">
+          <ScalarProperty Name="IdPoster" ColumnName="IdPoster" />
+          <ScalarProperty Name="IdSubjectClass" ColumnName="IdSubjectClass" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notifications">
+      <EntityTypeMapping TypeName="StudentManagementModel.Notification">
+        <MappingFragment StoreEntitySet="Notification">
+          <ScalarProperty Name="IdSubjectClass" ColumnName="IdSubjectClass" />
+          <ScalarProperty Name="IdPoster" ColumnName="IdPoster" />
+          <ScalarProperty Name="IdNotificationType" ColumnName="IdNotificationType" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Topic" ColumnName="Topic" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificationComments">
+      <EntityTypeMapping TypeName="StudentManagementModel.NotificationComment">
+        <MappingFragment StoreEntitySet="NotificationComment">
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="IdNotification" ColumnName="IdNotification" />
+          <ScalarProperty Name="IdUserComment" ColumnName="IdUserComment" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificationImages">
+      <EntityTypeMapping TypeName="StudentManagementModel.NotificationImage">
+        <MappingFragment StoreEntitySet="NotificationImages">
+          <ScalarProperty Name="IdDatabaseImageTable" ColumnName="IdDatabaseImageTable" />
+          <ScalarProperty Name="IdNotification" ColumnName="IdNotification" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificationInfoes">
+      <EntityTypeMapping TypeName="StudentManagementModel.NotificationInfo">
+        <MappingFragment StoreEntitySet="NotificationInfo">
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="IdUserReceiver" ColumnName="IdUserReceiver" />
+          <ScalarProperty Name="IdNotification" ColumnName="IdNotification" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificationTypes">
+      <EntityTypeMapping TypeName="StudentManagementModel.NotificationType">
+        <MappingFragment StoreEntitySet="NotificationType">
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OTPs">
+      <EntityTypeMapping TypeName="StudentManagementModel.OTP">
+        <MappingFragment StoreEntitySet="OTP">
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Semesters">
+      <EntityTypeMapping TypeName="StudentManagementModel.Semester">
+        <MappingFragment StoreEntitySet="Semester">
+          <ScalarProperty Name="CourseRegisterStatus" ColumnName="CourseRegisterStatus" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Batch" ColumnName="Batch" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="StudentManagementModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="IdUsers" ColumnName="IdUsers" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IdFaculty" ColumnName="IdFaculty" />
+          <ScalarProperty Name="IdTrainingForm" ColumnName="IdTrainingForm" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subjects">
+      <EntityTypeMapping TypeName="StudentManagementModel.Subject">
+        <MappingFragment StoreEntitySet="Subject">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Describe" ColumnName="Describe" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubjectClasses">
+      <EntityTypeMapping TypeName="StudentManagementModel.SubjectClass">
+        <MappingFragment StoreEntitySet="SubjectClass">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="MaxNumberOfStudents" ColumnName="MaxNumberOfStudents" />
+          <ScalarProperty Name="NumberOfStudents" ColumnName="NumberOfStudents" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="IdTrainingForm" ColumnName="IdTrainingForm" />
+          <ScalarProperty Name="IdThumbnail" ColumnName="IdThumbnail" />
+          <ScalarProperty Name="WeekDay" ColumnName="WeekDay" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="IdSemester" ColumnName="IdSemester" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="IdSubject" ColumnName="IdSubject" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teachers">
+      <EntityTypeMapping TypeName="StudentManagementModel.Teacher">
+        <MappingFragment StoreEntitySet="Teacher">
+          <ScalarProperty Name="IdUsers" ColumnName="IdUsers" />
+          <ScalarProperty Name="IdFaculty" ColumnName="IdFaculty" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainingForms">
+      <EntityTypeMapping TypeName="StudentManagementModel.TrainingForm">
+        <MappingFragment StoreEntitySet="TrainingForm">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainingScores">
+      <EntityTypeMapping TypeName="StudentManagementModel.TrainingScore">
+        <MappingFragment StoreEntitySet="TrainingScore">
+          <ScalarProperty Name="IdStudent" ColumnName="IdStudent" />
+          <ScalarProperty Name="IdSemester" ColumnName="IdSemester" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_UserRole_UserInfo">
+      <EntityTypeMapping TypeName="StudentManagementModel.User_UserRole_UserInfo">
+        <MappingFragment StoreEntitySet="User_UserRole_UserInfo">
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="IdUserRole_Info" ColumnName="IdUserRole_Info" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRoles">
+      <EntityTypeMapping TypeName="StudentManagementModel.UserRole">
+        <MappingFragment StoreEntitySet="UserRole">
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRole_UserInfo">
+      <EntityTypeMapping TypeName="StudentManagementModel.UserRole_UserInfo">
+        <MappingFragment StoreEntitySet="UserRole_UserInfo">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsEnable" ColumnName="IsEnable" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="InfoName" ColumnName="InfoName" />
+          <ScalarProperty Name="IdRole" ColumnName="IdRole" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRole_UserInfoItem">
+      <EntityTypeMapping TypeName="StudentManagementModel.UserRole_UserInfoItem">
+        <MappingFragment StoreEntitySet="UserRole_UserInfoItem">
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="IdUserRole_Info" ColumnName="IdUserRole_Info" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="StudentManagementModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="IdAvatar" ColumnName="IdAvatar" />
+          <ScalarProperty Name="IdUserRole" ColumnName="IdUserRole" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="IdOTP" ColumnName="IdOTP" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Teacher_SubjectClass" TypeName="StudentManagementModel.Teacher_SubjectClass" StoreEntitySet="Teacher_SubjectClass">
+      <EndProperty Name="Teacher">
+        <ScalarProperty Name="Id" ColumnName="IdTeacher" />
+      </EndProperty>
+      <EndProperty Name="SubjectClass">
+        <ScalarProperty Name="Id" ColumnName="IdSubjectClass" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

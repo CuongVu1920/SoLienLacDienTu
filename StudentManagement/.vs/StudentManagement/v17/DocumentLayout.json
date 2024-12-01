@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\models\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\models\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|d:\\solienlacdientu\\solienlac\\studentmanagement\\studentmanagement\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\views\\admincourseregistry.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\views\\admincourseregistry.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\xamlresources\\iconresource.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\xamlresources\\iconresource.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\xamlresources\\colorresource.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\xamlresources\\colorresource.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\components\\scheduleitemcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\components\\scheduleitemcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\components\\rightsidebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\components\\rightsidebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\components\\emptystaterightsidebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\components\\emptystaterightsidebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\components\\clockcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\components\\clockcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\components\\courseregistry\\admincourseregistryrightsidebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\components\\courseregistry\\admincourseregistryrightsidebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\studentmanagement\\commands\\basecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17B75B4E-C370-4DB7-B217-31C84275646B}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\commands\\basecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vucuo\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\App.config",
+              "RelativeDocumentMoniker": "StudentManagement\\App.config",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\App.config",
+              "RelativeToolTip": "StudentManagement\\App.config",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAADqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-01T08:59:28.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminCourseRegistry.xaml",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Views\\AdminCourseRegistry.xaml",
+              "RelativeDocumentMoniker": "StudentManagement\\Views\\AdminCourseRegistry.xaml",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Views\\AdminCourseRegistry.xaml",
+              "RelativeToolTip": "StudentManagement\\Views\\AdminCourseRegistry.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-01T08:46:42.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IconResource.xaml",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\XAMLResources\\IconResource.xaml",
+              "RelativeDocumentMoniker": "StudentManagement\\XAMLResources\\IconResource.xaml",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\XAMLResources\\IconResource.xaml",
+              "RelativeToolTip": "StudentManagement\\XAMLResources\\IconResource.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-01T08:46:39.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ColorResource.xaml",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\XAMLResources\\ColorResource.xaml",
+              "RelativeDocumentMoniker": "StudentManagement\\XAMLResources\\ColorResource.xaml",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\XAMLResources\\ColorResource.xaml",
+              "RelativeToolTip": "StudentManagement\\XAMLResources\\ColorResource.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-01T08:46:38.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScheduleItemCard.xaml",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Components\\ScheduleItemCard.xaml",
+              "RelativeDocumentMoniker": "StudentManagement\\Components\\ScheduleItemCard.xaml",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Components\\ScheduleItemCard.xaml",
+              "RelativeToolTip": "StudentManagement\\Components\\ScheduleItemCard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-01T08:46:31.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RightSideBar.xaml",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Components\\RightSideBar.xaml",
+              "RelativeDocumentMoniker": "StudentManagement\\Components\\RightSideBar.xaml",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Components\\RightSideBar.xaml",
+              "RelativeToolTip": "StudentManagement\\Components\\RightSideBar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-01T08:46:30.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmptyStateRightSideBar.xaml",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Components\\EmptyStateRightSideBar.xaml",
+              "RelativeDocumentMoniker": "StudentManagement\\Components\\EmptyStateRightSideBar.xaml",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Components\\EmptyStateRightSideBar.xaml",
+              "RelativeToolTip": "StudentManagement\\Components\\EmptyStateRightSideBar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-01T08:46:29.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClockControl.xaml",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Components\\ClockControl.xaml",
+              "RelativeDocumentMoniker": "StudentManagement\\Components\\ClockControl.xaml",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Components\\ClockControl.xaml",
+              "RelativeToolTip": "StudentManagement\\Components\\ClockControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-01T08:46:27.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminCourseRegistryRightSideBar.xaml",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Components\\CourseRegistry\\AdminCourseRegistryRightSideBar.xaml",
+              "RelativeDocumentMoniker": "StudentManagement\\Components\\CourseRegistry\\AdminCourseRegistryRightSideBar.xaml",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Components\\CourseRegistry\\AdminCourseRegistryRightSideBar.xaml",
+              "RelativeToolTip": "StudentManagement\\Components\\CourseRegistry\\AdminCourseRegistryRightSideBar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-01T08:46:06.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WpfXamlLoader.cs",
+              "DocumentMoniker": "C:\\Users\\vucuo\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
+              "ToolTip": "C:\\Users\\vucuo\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T08:44:36.754Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Models\\Model.edmx",
+              "RelativeDocumentMoniker": "StudentManagement\\Models\\Model.edmx",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Models\\Model.edmx [Diagram1]",
+              "RelativeToolTip": "StudentManagement\\Models\\Model.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-01T08:43:55.21Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Commands\\RelayCommand.cs",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "StudentManagement\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T08:43:46.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseCommand.cs",
+              "DocumentMoniker": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Commands\\BaseCommand.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Commands\\BaseCommand.cs",
+              "ToolTip": "D:\\SoLienLacDienTu\\SoLienLac\\StudentManagement\\StudentManagement\\Commands\\BaseCommand.cs",
+              "RelativeToolTip": "StudentManagement\\Commands\\BaseCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T08:43:40.671Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
